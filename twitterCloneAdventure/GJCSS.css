@@ -215,7 +215,8 @@ footer {
     background-color: #522424;
     color: white;
     font-size: 11px;
-    po
+    position: fixed;
+    bottom: 0;
 }
 
 footer a {
