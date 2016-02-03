@@ -136,6 +136,7 @@ content {
     float: left;
     width: 63%;
     padding: 2px;
+    clear: left;
     
 }
 
@@ -143,26 +144,60 @@ content img {
     width: 100px;
     height: 100px;
     margin-right: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px solid #C0AFAF;
     padding: 2px;
+    float: left;
+    clear: left;
+    
     
     
 }
 
 content div {
     margin-bottom: 10px;
-    
+    font-size: 12px;
+    clear: left;
+    padding: 10px;
     
 }
 
 aside {
     float: right;
-    background-color: burlywood;
+    background-color: #C0AFAF;
     width: 30%;
+    height: 100%;
     
 }
 
+aside div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #C0AFAF;
+    padding: 2px;
+    float: left;
+}
+
+aside div {
+    font-size: 11px;
+    
+}
+
+#name {
+    font-size: 12px;
+    font-weight: 800;
+    color: #522424;
+    float: left;
+    
+}
+
+#write {
+    margin-bottom: 10px;
+    clear: right;
+    float: left;
+    
+}
 
 /*  
 ========================================
@@ -175,7 +210,6 @@ footer {
     background-color: #522424;
     color: white;
     font-size: 11px;
-    text-align: center;
 }
 
 footer a {
