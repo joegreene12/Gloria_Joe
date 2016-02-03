@@ -1,6 +1,6 @@
-/* 
+/*
 ========================================
- THIS IS THE MAIN CONTAINER OF THE PAGE 
+ THIS IS THE MAIN CONTAINER OF THE PAGE
 ========================================
 */
 
@@ -17,9 +17,9 @@
 }
 
 
-/* 
+/*
 ========================================
- THIS IS THE HEADER SECTION OF THE PAGE 
+ THIS IS THE HEADER SECTION OF THE PAGE
 ========================================
 */
 
@@ -41,7 +41,7 @@ header {
     position: relative;
     clear: both;
     margin-bottom: 20px;
-    
+
 }
 
 #menu ul {
@@ -53,7 +53,7 @@ header {
     position: relative;
     left: 50%;
     text-align: center;
-    
+
 
 }
 
@@ -65,7 +65,7 @@ header {
     padding:0;
     position:relative;
     right:50%;
-    
+
 
 }
 
@@ -74,12 +74,12 @@ header {
     padding:3px 10px;
     color: darkslateblue;
     text-decoration:none;
-    
+
 }
 
-/*  
+/*
 ========================================
-          Hovering over the link 
+          Hovering over the link
 ========================================
 */
 
@@ -87,8 +87,8 @@ header {
     background-color: #522424;
     color: #f5f5f5;
     border-radius: 2px;
-    
-    
+
+
 }
 
 #topRight ul {
@@ -117,9 +117,9 @@ header {
     background-color: #C0AFAF;
 }
 
-/*  
+/*
 ========================================
-  THIS IS THE MAIN SECTION OF THE PAGE 
+  THIS IS THE MAIN SECTION OF THE PAGE
 ========================================
 */
 
@@ -128,8 +128,8 @@ section {
     width: 100%;
     margin-bottom: 20px;
 
-    
-      
+
+
 }
 
 content {
@@ -137,7 +137,7 @@ content {
     width: 63%;
     padding: 2px;
     clear: left;
-    
+
 }
 
 content img {
@@ -149,9 +149,9 @@ content img {
     padding: 2px;
     float: left;
     clear: left;
-    
-    
-    
+
+
+
 }
 
 content div {
@@ -159,7 +159,7 @@ content div {
     font-size: 12px;
     clear: left;
     padding: 10px;
-    
+
 }
 
 aside {
@@ -167,7 +167,8 @@ aside {
     background-color: #C0AFAF;
     width: 30%;
     height: 100%;
-    
+    padding-bottom: 20px;
+
 }
 
 aside div img {
@@ -177,31 +178,35 @@ aside div img {
     border: 1px solid #C0AFAF;
     padding: 2px;
     float: left;
+    margin-bottom: 20px;
 }
 
 aside div {
     font-size: 11px;
-    
+
 }
 
 #name {
     font-size: 12px;
     font-weight: 800;
     color: #522424;
-    float: left;
-    
+    /*float: left;*/
+    /*display: inline-block;*/
 }
 
 #write {
     margin-bottom: 10px;
-    clear: right;
+    /*clear: right;
     float: left;
-    
+    text-align: right;*/
 }
+.image {
+  margin-bottom: 20px;
 
-/*  
+}
+/*
 ========================================
-             The footer section 
+             The footer section
 ========================================
 */
 
@@ -210,6 +215,7 @@ footer {
     background-color: #522424;
     color: white;
     font-size: 11px;
+    po
 }
 
 footer a {
