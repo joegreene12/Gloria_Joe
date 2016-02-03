@@ -1,0 +1,132 @@
+#mainPage {
+    width: 992px;
+    font-family: sans-serif;
+    align-content: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+header {
+    width: 992px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    
+}
+
+#logo {
+    
+}
+
+#tagline {
+    
+}
+
+
+
+#menu {
+    float: left;
+    width: 992px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid #b56617;
+    overflow: hidden;
+    position: relative;
+
+    
+}
+
+#menu ul {
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    
+
+}
+
+#menu ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+    
+
+}
+
+#menu ul li a {
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    color: darkslateblue;
+    text-decoration:none;
+    
+}
+
+/* Hovering over the link */
+
+#menu ul li a:hover {
+    background-color:burlywood;
+    
+    
+}
+
+#topRight ul {
+   clear: left;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#topRight ul li {
+    display: block;
+    float: right;
+    position: relative;
+}
+
+#topRight ul li a {
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    text-decoration:none;
+}
+
+#edit {
+    clear: left;
+}
+
+#logout {
+    clear
+}
+
+section {
+    background-color: antiquewhite;
+    
+    
+}
+
+content {
+    float: left;
+    background-color: white;
+    
+}
+
+aside {
+    float: right;
+    background-color: burlywood
+}
+
+footer {
+    clear: both;
+}
