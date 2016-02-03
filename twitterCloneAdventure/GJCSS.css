@@ -1,3 +1,9 @@
+/* 
+========================================
+ THIS IS THE MAIN CONTAINER OF THE PAGE 
+========================================
+*/
+
 #mainPage {
     width: 992px;
     font-family: sans-serif;
@@ -11,32 +17,30 @@
 }
 
 
+/* 
+========================================
+ THIS IS THE HEADER SECTION OF THE PAGE 
+========================================
+*/
+
 header {
     width: 992px;
     background-color: white;
     color: black;
-    padding: 5px;
-    
+    padding: 0;
+    clear: both;
 }
-
-#logo {
-    
-}
-
-#tagline {
-    
-}
-
 
 
 #menu {
     float: left;
-    width: 992px;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: #C0AFAF;
     border-bottom: 1px solid #b56617;
     overflow: hidden;
     position: relative;
-
+    clear: both;
+    margin-bottom: 20px;
     
 }
 
@@ -73,10 +77,16 @@ header {
     
 }
 
-/* Hovering over the link */
+/*  
+========================================
+          Hovering over the link 
+========================================
+*/
 
 #menu ul li a:hover {
-    background-color:burlywood;
+    background-color: #522424;
+    color: #f5f5f5;
+    border-radius: 2px;
     
     
 }
@@ -88,6 +98,7 @@ header {
     margin: 0;
     padding: 0;
     position: relative;
+    font-size: 14px
 }
 
 #topRight ul li {
@@ -98,35 +109,75 @@ header {
 
 #topRight ul li a {
     margin: 0 0 0 1px;
-    padding: 3px 10px;
+    padding: 3px 6px;
     text-decoration:none;
 }
 
-#edit {
-    clear: left;
+#topRight ul li a:hover{
+    background-color: #C0AFAF;
 }
 
-#logout {
-    clear
-}
+/*  
+========================================
+  THIS IS THE MAIN SECTION OF THE PAGE 
+========================================
+*/
 
 section {
-    background-color: antiquewhite;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+
     
-    
+      
 }
 
 content {
     float: left;
-    background-color: white;
+    width: 63%;
+    padding: 2px;
+    
+}
+
+content img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 1px solid #C0AFAF;
+    padding: 2px;
+    
+    
+}
+
+content div {
+    margin-bottom: 10px;
+    
     
 }
 
 aside {
     float: right;
-    background-color: burlywood
+    background-color: burlywood;
+    width: 30%;
+    
 }
+
+
+/*  
+========================================
+             The footer section 
+========================================
+*/
 
 footer {
     clear: both;
+    background-color: #522424;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: aqua;
 }
