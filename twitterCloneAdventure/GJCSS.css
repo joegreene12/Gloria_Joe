@@ -31,6 +31,18 @@ header {
     clear: both;
 }
 
+a {
+    color: darkmagenta;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: mediumorchid;
+}
 
 #menu {
     float: left;
@@ -72,7 +84,7 @@ header {
 #menu ul li a {
     margin:0 0 0 1px;
     padding:3px 10px;
-    color: darkslateblue;
+    color: darkmagenta;
     text-decoration:none;
 
 }
@@ -87,8 +99,14 @@ header {
     background-color: #522424;
     color: #f5f5f5;
     border-radius: 2px;
+<<<<<<< HEAD
 
 
+=======
+    transition-delay: 0.25s;
+    
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 }
 
 #topRight ul {
@@ -98,7 +116,7 @@ header {
     margin: 0;
     padding: 0;
     position: relative;
-    font-size: 14px
+    font-size: 14px;
 }
 
 #topRight ul li {
@@ -111,10 +129,13 @@ header {
     margin: 0 0 0 1px;
     padding: 3px 6px;
     text-decoration:none;
+    border-left: 1px;
+    
 }
 
+
 #topRight ul li a:hover{
-    background-color: #C0AFAF;
+    text-decoration: underline;
 }
 
 /*
@@ -124,23 +145,39 @@ header {
 */
 
 section {
-    float: left;
     width: 100%;
     margin-bottom: 20px;
+<<<<<<< HEAD
 
 
 
+=======
+      
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 }
 
-content {
+section main {
     float: left;
-    width: 63%;
+    display: inline-block;
     padding: 2px;
+<<<<<<< HEAD
     clear: left;
 
+=======
+    width: 70%;
+    
+    
 }
 
-content img {
+section main hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(82, 36, 36, 0.75), rgba(0, 0, 0, 0));
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
+}
+
+section img {
     width: 100px;
     height: 100px;
     margin-right: 10px;
@@ -148,30 +185,64 @@ content img {
     border: 1px solid #C0AFAF;
     padding: 2px;
     float: left;
+<<<<<<< HEAD
     clear: left;
 
 
+=======
+    margin-bottom: 20px;
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 
 }
 
-content div {
+section main div {
     margin-bottom: 10px;
     font-size: 12px;
     clear: left;
     padding: 10px;
+<<<<<<< HEAD
+
+=======
+    overflow: auto;
+}
+
+
+.statusContent {
+    text-align: justify;
 
 }
 
-aside {
+.statusName {
+    font-weight:800;
+    color: #522424; 
+}
+
+.statusDate {
+    font-style: italic;
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
+}
+
+section aside {
     float: right;
     background-color: #C0AFAF;
+<<<<<<< HEAD
     width: 30%;
     height: 100%;
     padding-bottom: 20px;
 
+=======
+    padding-top: 0px;
+    padding-left: 10px;
+    
+    display: inline-block;
+    
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 }
 
-aside div img {
+section aside div img {
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -181,12 +252,24 @@ aside div img {
     margin-bottom: 20px;
 }
 
-aside div {
+section aside div {
     font-size: 11px;
+<<<<<<< HEAD
 
+=======
+    float: left;
+    clear: left;
+    
 }
 
-#name {
+.featured {
+    margin-bottom: 20px;
+    clear: right;
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
+}
+
+.popName {
     font-size: 12px;
     font-weight: 800;
     color: #522424;
@@ -194,11 +277,15 @@ aside div {
     /*display: inline-block;*/
 }
 
-#write {
+.popBio {
     margin-bottom: 10px;
+<<<<<<< HEAD
     /*clear: right;
     float: left;
     text-align: right;*/
+=======
+    
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 }
 .image {
   margin-bottom: 20px;
@@ -215,9 +302,15 @@ footer {
     background-color: #522424;
     color: white;
     font-size: 11px;
+<<<<<<< HEAD
     position: fixed;
     bottom: 0;
     margin-left: 9%;
+=======
+    bottom: 0;
+    position: fixed;
+    width: 992px;
+>>>>>>> 72d8d5813a83d8ca53bb888af9600831133a4ef9
 }
 
 footer a {
