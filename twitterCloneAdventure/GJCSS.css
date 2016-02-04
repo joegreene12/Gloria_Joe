@@ -32,12 +32,16 @@ header {
 }
 
 a {
-    color: ;
+    color: darkmagenta;
     
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a:visited {
-    color: black;
+    color: mediumorchid;
 }
 
 #menu {
@@ -80,7 +84,7 @@ a:visited {
 #menu ul li a {
     margin:0 0 0 1px;
     padding:3px 10px;
-    color: black;
+    color: darkmagenta;
     text-decoration:none;
     
 }
@@ -120,11 +124,13 @@ a:visited {
     margin: 0 0 0 1px;
     padding: 3px 6px;
     text-decoration:none;
+    border-left: 1px;
+    
 }
 
 
 #topRight ul li a:hover{
-    background-color: #C0AFAF;
+    text-decoration: underline;
 }
 
 /*  
