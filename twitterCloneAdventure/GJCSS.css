@@ -31,6 +31,14 @@ header {
     clear: both;
 }
 
+a {
+    color: black;
+    
+}
+
+a:visited {
+    color: black;
+}
 
 #menu {
     float: left;
@@ -72,7 +80,7 @@ header {
 #menu ul li a {
     margin:0 0 0 1px;
     padding:3px 10px;
-    color: darkslateblue;
+    color: black;
     text-decoration:none;
     
 }
@@ -98,7 +106,7 @@ header {
     margin: 0;
     padding: 0;
     position: relative;
-    font-size: 14px
+    font-size: 14px;
 }
 
 #topRight ul li {
@@ -124,23 +132,28 @@ header {
 */
 
 section {
-    float: left;
     width: 100%;
     margin-bottom: 20px;
-
-    
       
 }
 
-content {
+section main {
     float: left;
-    width: 63%;
+    display: inline-block;
     padding: 2px;
-    clear: left;
+    width: 78%;
+    
     
 }
 
-content img {
+section main hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    
+}
+
+section img {
     width: 100px;
     height: 100px;
     margin-right: 10px;
@@ -148,29 +161,45 @@ content img {
     border: 1px solid #C0AFAF;
     padding: 2px;
     float: left;
-    clear: left;
+    margin-bottom: 20px;
     
-    
-    
+
 }
 
-content div {
+section main div {
     margin-bottom: 10px;
     font-size: 12px;
     clear: left;
     padding: 10px;
+    overflow: auto;
+}
+
+
+.statusContent {
+    text-align: justify;
+
+}
+
+.statusName {
+    font-weight:800;
+    color: #522424; 
+}
+
+.statusDate {
+    font-style: italic;
     
 }
 
-aside {
+section aside {
     float: right;
     background-color: #C0AFAF;
-    width: 30%;
-    height: 100%;
+    padding: 2px;
+    display: inline-block;
+    
     
 }
 
-aside div img {
+section aside div img {
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -179,12 +208,20 @@ aside div img {
     float: left;
 }
 
-aside div {
+section aside div {
     font-size: 11px;
+    float: left;
+    clear: left;
     
 }
 
-#name {
+.featured {
+    margin-bottom: 20px;
+    clear: right;
+    
+}
+
+.popName {
     font-size: 12px;
     font-weight: 800;
     color: #522424;
@@ -192,10 +229,8 @@ aside div {
     
 }
 
-#write {
+.popBio {
     margin-bottom: 10px;
-    clear: right;
-    float: left;
     
 }
 
@@ -210,6 +245,9 @@ footer {
     background-color: #522424;
     color: white;
     font-size: 11px;
+    bottom: 0;
+    position: fixed;
+    width: 992px;
 }
 
 footer a {
