@@ -1,6 +1,6 @@
-/* 
+/*
 ========================================
- THIS IS THE MAIN CONTAINER OF THE PAGE 
+ THIS IS THE MAIN CONTAINER OF THE PAGE
 ========================================
 */
 
@@ -17,9 +17,9 @@
 }
 
 
-/* 
+/*
 ========================================
- THIS IS THE HEADER SECTION OF THE PAGE 
+ THIS IS THE HEADER SECTION OF THE PAGE
 ========================================
 */
 
@@ -33,7 +33,7 @@ header {
 
 a {
     color: darkmagenta;
-    
+
 }
 
 a:hover {
@@ -49,8 +49,8 @@ h1 {
 }
 
 #tagline {
-    font-family: Trebuchet MS; 
-    font-weight: bold; 
+    font-family: Trebuchet MS;
+    font-weight: bold;
     font-size: 30px
 }
 
@@ -63,7 +63,7 @@ h1 {
     position: relative;
     clear: both;
     margin-bottom: 20px;
-    
+
 }
 
 #menu ul {
@@ -75,7 +75,7 @@ h1 {
     position: relative;
     left: 50%;
     text-align: center;
-    
+
 
 }
 
@@ -87,7 +87,7 @@ h1 {
     padding:0;
     position:relative;
     right:50%;
-    
+
 
 }
 
@@ -96,12 +96,12 @@ h1 {
     padding:3px 10px;
     color: darkmagenta;
     text-decoration:none;
-    
+
 }
 
-/*  
+/*
 ========================================
-          Hovering over the link 
+          Hovering over the link
 ========================================
 */
 
@@ -110,8 +110,8 @@ h1 {
     color: #f5f5f5;
     border-radius: 2px;
     transition-delay: 0.25s;
-    
-    
+
+
 }
 
 #topRight ul {
@@ -122,14 +122,14 @@ h1 {
     position: relative;
     font-size: 14px;
     float: right;
-    
+
 }
 
 #topRight ul li {
     display: inline-block;
     align-items: right;
-    
-    
+
+
 }
 
 #topRight ul li a {
@@ -137,7 +137,7 @@ h1 {
     padding: 3px 6px;
     text-decoration:none;
     border-left: 1px;
-    
+
 }
 
 
@@ -145,16 +145,16 @@ h1 {
     text-decoration: underline;
 }
 
-/*  
+/*
 ========================================
-  THIS IS THE MAIN SECTION OF THE PAGE 
+  THIS IS THE MAIN SECTION OF THE PAGE
 ========================================
 */
 
 section {
     width: 100%;
     margin-bottom: 20px;
-      
+
 }
 
 section main {
@@ -162,15 +162,15 @@ section main {
     display: inline-block;
     padding: 2px;
     width: 70%;
-    
-    
+
+
 }
 
 section main hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(82, 36, 36, 0.75), rgba(0, 0, 0, 0));
-    
+
 }
 
 section img {
@@ -182,7 +182,7 @@ section img {
     padding: 2px;
     float: left;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -213,12 +213,12 @@ section main div {
 
 .statusName {
     font-weight:800;
-    color: #522424; 
+    color: #522424;
 }
 
 .statusDate {
     font-style: italic;
-    
+
 }
 
 section aside {
@@ -228,8 +228,8 @@ section aside {
     padding-left: 10px;
     display: inline-block;
     width: 200px;
-    
-    
+
+
 }
 
 section aside div img {
@@ -245,15 +245,15 @@ section aside div {
     font-size: 11px;
     float: left;
     clear: left;
-    width: 200px;
     padding: 5px;
-    
+    text-align: left;
+
 }
 
 .featured {
     margin-bottom: 20px;
     clear: right;
-    
+
 }
 
 .popName {
@@ -261,12 +261,12 @@ section aside div {
     font-weight: 800;
     color: #522424;
     float: left;
-    
+
 }
 
 .popBio {
     margin-bottom: 10px;
-    
+
 }
 
 /* Gradient Buttons */
@@ -281,7 +281,7 @@ button {
     background: -o-linear-gradient(blue, aqua); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(blue, aqua); /* For Firefox 3.6 to 15 */
     background: linear-gradient(blue, aqua); /* Standard syntax */
-    
+
     border-radius: 15px;
     border: none;
     font-size: 20px;
@@ -289,9 +289,9 @@ button {
     width: 200px;
     padding: 15px;
     margin-top: 20px;
-    
 
-    
+
+
 }
 
 button:hover {
@@ -300,17 +300,21 @@ button:hover {
     background: -o-linear-gradient(aqua, blue); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(aqua, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(aqua, blue); /* Standard syntax */
-    
+
     border-radius: 15px;
     border: none;
     font-size: 20px;
     color: white;
 }
 
+ button:active{
+    background: #C0AFAF;
+}
 
-/*  
+
+/*
 ========================================
-             The Form Section 
+             The Form Section
 ========================================
 */
 
@@ -357,7 +361,7 @@ input[type="file"] {
   background: #efeff7;
   padding: .8em .5em;
   color: transparent;
-    
+
 }
 
 input[type="text"]:focus,
@@ -409,15 +413,15 @@ input[type="submit"] {
 .bye {
     align-content: center;
     margin-left: 38%;
-    
+
 }
 
 
 
 
-/*  
+/*
 ========================================
-             The footer section 
+             The footer section
 ========================================
 */
 
@@ -434,3 +438,4 @@ footer {
 footer a {
     color: aqua;
 }
+
