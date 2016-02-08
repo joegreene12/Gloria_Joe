@@ -145,6 +145,7 @@ h1 {
     text-decoration: underline;
 }
 
+/* added the css for menu bonus */
 #menu ul li a:hover {
     background-color: #522424;
     color: #f5f5f5;
@@ -153,6 +154,7 @@ h1 {
     transition-timing-function: linear;
   }
 
+/* pipe included for extra */
 #topRight ul li + li:before{
     content: " | ";
 }
@@ -278,6 +280,20 @@ section aside div {
 
 }
 
+/* my status page css */
+
+.oneTime {
+    float: left;
+    width: 90%;
+    clear: none;
+    padding: 21px;
+    margin: 5px;
+    height: 110px;
+    overflow: hidden;
+    border-bottom: 1px;
+    background-color: #C0AFAF;
+}
+
 /* Gradient Buttons */
 
 #button-container {
@@ -316,6 +332,7 @@ button:hover {
     color: white;
 }
 
+/* click on Button */
  button:active{
     background: #C0AFAF;
 }
