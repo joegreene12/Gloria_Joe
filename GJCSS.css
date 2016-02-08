@@ -245,6 +245,8 @@ section aside div {
     font-size: 11px;
     float: left;
     clear: left;
+    width: 200px;
+    padding: 5px;
     
 }
 
