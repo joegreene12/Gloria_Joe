@@ -153,6 +153,10 @@ h1 {
     transition-timing-function: linear;
   }
 
+#topRight ul li + li:before{
+    content: " | ";
+}
+
 /*
 ========================================
   THIS IS THE MAIN SECTION OF THE PAGE
