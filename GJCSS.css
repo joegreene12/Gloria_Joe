@@ -438,9 +438,3 @@ footer {
 footer a {
     color: aqua;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
