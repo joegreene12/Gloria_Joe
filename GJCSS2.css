@@ -153,6 +153,16 @@ section main div form {
     display: none;
 }
 
+/*
+======================
+  POST A REPLY FORM
+======================
+*/
+
+#replyPost0, #replyPost1, #replyPost2, #replyPost3, #replyPost4, #replyPost5, #replyPost6, #replyPost7 {
+    display: none;
+}
+
 section main div form textarea {
     display: flex;
     flex-wrap: wrap;
