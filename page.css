@@ -1,0 +1,556 @@
+/* Color Scheme 
+   Light lavender - #bccbde
+   Light teal     - #c2dde6
+   Light purple   - #e6e9f0
+   Eggplant       - #431c5d
+   Pumpkin Orange - #e05915
+   Limey green    - #cdd422
+   */
+   
+   
+
+
+/*
+===============================
+ GENERAL FORMATTING OF THE PAGE
+===============================
+*/
+
+a {
+    color: #cdd422;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #e05915;
+}
+
+body {
+    background-color: #e6e9f0;
+    font-family: Tahoma;
+}
+
+h1 {
+    color: #431c5d;
+    font-size: 25px;
+}
+
+h2, h3 {
+    color: #431c5d;
+}
+
+body{
+    /* To constrain the size of the page
+       and center it.*/
+    max-width: 996px;
+    margin: 5 auto !important;
+    float: none !important;
+}
+
+/* Horizontal Rule: 
+   Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(67, 28, 93, 1), rgba(0, 0, 0, 0));
+}
+
+#mainPage {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+/*
+========================================
+ THIS IS THE HEADER SECTION OF THE PAGE
+========================================
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #431c5d;
+}
+
+#topRight ul {
+    display: flex;
+    align-content: flex-end;
+    width: 120px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 14px;
+    float: right;
+
+}
+
+#logoImage {
+
+}
+
+#menu {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #431c5d;
+    border-bottom: 1px solid #cdd422;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    display: flex;
+    align-content: flex-end;
+    width:400px;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+    float: right;
+}
+
+.menuItem {
+    display: flex;
+    align-self: center;
+}
+
+#tagline {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 30px;
+    color: #431c5d;    
+}
+
+#titleBlock {
+    display: none;
+}
+
+/*
+================================================
+ FOR STATUSES INCLUDING IMAGES NAMES & MESSAGES
+================================================
+*/
+
+main div form {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+section main div {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+section main div div {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 350px;
+    flex-direction: column;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: auto;
+}
+section img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #e05915;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+#postStatusLink {
+    margin-bottom: 20px;
+}
+
+#statusPost {
+    display:none;
+    margin-bottom: 100px;
+}
+
+.statusName{
+    color: #e05915;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: -15px;
+     
+}
+
+.statusDate{
+    font-style: italic;
+}
+
+.statusContent{
+    line-height: 130%;
+}
+
+.replyForm{
+    height: 5px;
+    margin: 0px 0px 0px 0px;
+    flex-basis: 1000px
+}
+
+.replyPost {
+    display: none;
+}
+
+section main div form ul {
+    display: flex;
+    float: right;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+    color: #431c5d;
+}
+
+
+
+button {
+    background-color: #bccbde;
+    border: none;
+    color: #431c5d;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #431c5d;
+    border-radius: 5px;
+    color: #cdd422;
+}
+
+/* CSS only Check boxes */
+
+.location {
+    -webkit-appearance: none;
+	background-color: #bccbde;
+    width: 28px;
+    height: 28px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    margin-right: 5px;
+    
+}
+
+.location:checked:active{
+    
+}
+
+.location:checked {
+    background-color: #431c5d;
+    color: #cdd422;
+    width: 28px;
+    height: 28px;
+}
+
+.location:checked:after {
+    content: '\2714';
+    color: #cdd422;
+    max-width: 28px;
+    max-height: 28px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    font-size: 26px;
+}
+
+label {
+    color: #431c5d;
+    font-size: 14px;
+}
+
+section main div form label {
+    position: relative;
+}
+
+.labelText {
+    position: absolute;
+    line-height: 33px;
+    width: 150px;
+}
+
+/*
+==================================
+ General Format of the page
+==================================
+*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* The Main Section */
+section main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 2px;
+    width: 70%;
+}
+
+/* More Statuses buttons */
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* The Aside Section - Active Users*/
+section aside {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c2dde6;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    display: inline-block;
+    flex-basis: 28%;
+}
+
+section aside div {
+    display: flex; 
+    flex-direction: row;
+    font-size: 11px;
+    text-align: left;
+}
+
+section aside div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #e6e9f0;
+    padding: 0px;
+}
+
+section aside div div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* Get Notified Button */
+
+aside div button {
+    border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+aside div button:hover {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(aqua, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(aqua, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(aqua, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(aqua, blue); /* Standard syntax */
+
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+aside div button:active{
+    background: #C0AFAF;
+}
+
+
+/*
+==================================
+ GENERAL FORMATTING OF THE FOOTER
+==================================
+*/
+
+footer {
+    background-image: url(https://intranet.hbtn.io/images/contents/higher_level_programming/projects/twitter/dark-background.jpg);
+    background-size: cover;    
+    }
+
+#webmasterContact {
+    align-content: center;
+    color: azure;
+    font-size: 10px;
+}
+
+#footerMenu {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    /*border-bottom: 1px solid #cdd422; */
+}
+
+#footerMenu ul {
+    display: flex;
+    align-content: flex-end;
+    width:400px;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+    float: right;
+}
+
+/*
+===================================
+ FOR SMALL SCREENS LESS THAN 600PX
+===================================
+*/
+
+@media screen and (max-width: 600px) {
+    
+    /* Hamburger Menu */
+    
+    
+    #statusPost, #showLink {
+        display: none;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    #titleBlock {
+        display: flex;
+        background-color: #431c5d;
+        font-size: 25px;
+        color: #cdd422;
+        height: 60px;
+    }
+    
+    #titleSpace{
+        margin: -15px 0px 0px 10px
+    }
+    
+    #titleSpace img {
+        outline-color: #cdd422;
+        margin-bottom: -5px
+    }
+    
+    #logotag {
+        display: none;
+    }
+    
+    #topRight {
+        display: none;
+    }
+    
+    /*Status Display*/
+    
+    section main div {
+        display: flex; 
+        
+    }
+    
+    section img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 50px;
+        border: 1px solid #e05915;
+        padding: 2px;
+        margin-bottom: 20px;
+    
+    }
+    
+    section main div div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 200px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        padding: 10px;
+        overflow: auto;
+    }
+    
+    
+    /* Posting a reply */
+    
+    .replyForm{
+        height: 5px;
+        flex-basis: 600px;
+    }
+    
+    .replyPost {
+        width: 100%;
+    }
+    
+    .statusContent{
+        line-height: 130%;
+    }
+ 
+    section aside {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #c2dde6;
+        flex-basis: 100%;
+        display: inline-block;
+    }
+}

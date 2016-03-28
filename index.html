@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Meta information -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="Change the way you have been creating microblogs online in order to get noticed in a fast paced World. Sign up for a new account.">
         <meta name="keywords" content="blog, blogging, microblogging, twitter, microblogs, microblog, noticed, World, technology, account">
         <meta name="author" content="JoeGreene GloriaNdungi">
-        <link rel="stylesheet" type="text/css" href="GJCSS2.css" />
-        <script type="text/javascript" src="post_a_status.js"></script>
-        <script type="text/javascript" src="load_more.js"></script>
-        <script type="text/javascript" src="toggle.js"></script>
-        <script type="text/javascript" src="reply.js"></script>
         
-    
+        <!-- CSS information -->
+        <link rel="stylesheet" type="text/css" href="page.css" />
+        
+        <!-- JavaScript information -->
+        <script type="text/javascript" src="js\post_a_status.js"></script>
+        <script type="text/javascript" src="js\load_more.js"></script>
+        <script type="text/javascript" src="js\toggle.js"></script>
+        <script type="text/javascript" src="js\reply.js"></script>
         
 		<title>In Short - The new way to get noticed online.</title>
 	</head>
@@ -27,6 +30,14 @@
                 <!--  #####################################  -->
             
             <header><!-- The header section of the page -->
+                <div id="titleBlock">
+                    <div id="titleSpace">
+                        <p><img alt="In Short Logo." src="https://upload.wikimedia.org/wikipedia/commons/7/78/Facebook_credits_World_Logo.png" width="30" /> In Short</p>
+                    </div>
+                    <div id="burgerMenu">
+                    
+                    </div>
+                </div>
                 
                 <div id="topRight"><!-- Top Right Menu -->
                     <ul>
@@ -38,7 +49,7 @@
                                
                 <div id="logotag">
                     <div id="logo"><!-- The Logo-->
-                        <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Facebook_credits_World_Logo.png" width="80" />
+                        <img id="logoImage" alt="In Short Logo" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Facebook_credits_World_Logo.png" width="80" />
                     </div>
                     <div id="tagline"><!-- The tagline -->
                         In Short
@@ -76,19 +87,19 @@
                 <!-- The main section of the page -->
                 
                 <main>
-                    <h1> Welcome back to In Short</h1>
+                    <h1>While you were gone</h1>
                     
-                    <div><span><a href="#" id="showLink">Post a status</a></span></div>
+                    <div id="postStatusLink"><span><a href="#" id="showLink">Post a status</a></span></div>
                     
                     
                     <!-- Post a Status form -->
-                    <!------------------------>
+                    <!-- ------------------ -->
                     
                     <div id ="statusPost" class="statusPost">
                         <form>
-                            <textarea type="textarea" placeholder="What's on your mind?"></textarea>
+                            <textarea id="writeStatus" type="textarea" placeholder="What's on your mind?"></textarea>
                             <ul>
-                                <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                 <li><button>Post</button></li>
                             </ul>
                         </form>
@@ -99,21 +110,21 @@
                     <!-- #          A STATUS       -->
                     <!-- ##########################-->
                     <div>
-                        <img alt="" src="http://static1.squarespace.com/static/52440ddbe4b03b33d728e5ea/t/556c12ebe4b08acdea0dc370/1433147028211/?format=300w" />
+                        <img alt="A picture of Sarah Egusen" src="http://static1.squarespace.com/static/52440ddbe4b03b33d728e5ea/t/556c12ebe4b08acdea0dc370/1433147028211/?format=300w" />
                         <div>
                         <span class="statusName">Sarah Egusen</span><br/>
                         <span class="statusDate">Feb 2, 2016</span><br/>
                         <span class="statusContent">Simple Simon met a pieman going to the fair, said Simple Simon to the pieman, let me taste your ware. Said the pieman to Simple Simon, show me first your penny. Said Simple Simon to the pieman indeed I have not any.</span>
                         </div>
-                        <div><span><a href="#" class="replyLink" id="replyLink0" data-indices="0">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink0" data-indices="0">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost0" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -125,22 +136,22 @@
                     <!-- #          A STATUS      #-->
                     <!-- ##########################-->
                     <div>
-                        <img alt="" src="http://holaafrica.org/wp-content/uploads/2015/06/IMG_6356545814303-300x300.jpeg" />
+                        <img alt="A picture of Kwoki Nabwano" src="http://holaafrica.org/wp-content/uploads/2015/06/IMG_6356545814303-300x300.jpeg" />
                         <div>
                         <span class="statusName">Kwoki Nabwano</span><br/>
                         <span class="statusDate">Feb 2, 2016</span><br/>
                         <span class="statusContent">What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.</span>
                         </div>
 
-                        <div><span><a class="replyLink" id="replyLink1" data-indices="1" >Reply</a></span></div>
+                        <div class="replyForm"><span><a class="replyLink" id="replyLink1" data-indices="1" >Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost1" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -152,22 +163,22 @@
                     <!-- #          A STATUS      #-->
                     <!-- ##########################-->
                     <div>
-                        <img alt="" src="http://zyaa.org/img/LisaChiriseri.png" />
+                        <img alt="A picture of Lisa Chiriseri" src="http://zyaa.org/img/LisaChiriseri.png" />
                         <div>
                         <span class="statusName">Lisa Chiriseri</span><br/>
                         <span class="statusDate">Feb 2, 2016</span><br/>
                         <span class="statusContent">Life is so nuts.</span>
                         </div>    
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink2" data-indices="2">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink2" data-indices="2">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost2" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -186,15 +197,15 @@
                         <span class="statusContent">What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.</span>
                         </div>    
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink3" data-indices="3">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink3" data-indices="3">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost3" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -213,15 +224,15 @@
                         <span class="statusContent">Simple Simon met a pieman going to the fair, said Simple Simon to the pieman, let me taste your ware. Said the pieman to Simple Simon, show me first your penny. Said Simple Simon to the pieman indeed I have not any.</span>
                         </div>    
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink4" data-indices="4">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink4" data-indices="4">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost4" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -240,15 +251,15 @@
                         <span class="statusContent">What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.</span>
                         </div>    
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink5" data-indices="5">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink5" data-indices="5">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost5" class="replyPost" >
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -267,15 +278,15 @@
                         <span class="statusContent">Life is so nuts.</span>
                         </div>
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink6" data-indices="6">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink6" data-indices="6">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost6" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -294,15 +305,15 @@
                         <span class="statusContent">What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can. If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.What a tiring day! If everything goes as planned then everything will be done on time. It is not possible to rely on the hard work of others sometimes, but we do what we can.</span>
                         </div> 
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink7" data-indices="7">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink7" data-indices="7">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost7" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -322,15 +333,15 @@
                         <span class="statusContent">Life is so nuts.</span>
                         </div>
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink8" data-indices="8">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink8" data-indices="8">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost8" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -350,15 +361,15 @@
                         <span class="statusContent">Life is so nuts.</span>
                         </div>
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink9" data-indices="9">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink9" data-indices="9">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
                         <div id ="replyPost9" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -378,15 +389,16 @@
                         <span class="statusContent">Life is so nuts.</span>
                         </div>
                         
-                        <div><span><a href="#" class="replyLink" id="replyLink10" data-indices="10">Reply</a></span></div>
+                        <div class="replyForm"><span><a href="#" class="replyLink" id="replyLink10" data-indices="10">Reply</a></span></div>
                     
                         <!-- Post a Reply form -->
-                        <!----------------------->
+                        <!-- ----------------- -->
+                        
                         <div id ="replyPost10" class="replyPost">
                             <form>
                                 <textarea type="textarea" placeholder="Post a response"></textarea>
                                 <ul>
-                                    <li><input type="checkbox" name="vehicle1" value="Bike">include location</li> 
+                                    <li><input type="checkbox" name="location" value="location" class="location"><label for="location"><span class="labelText">Include Location</span></label></li> 
                                     <li><button>Reply</button></li>
                                 </ul>
                             </form>
@@ -398,7 +410,7 @@
                     <div id="more-status-inject"></div>
 
                     <div id="more-status-div">
-                        <button id="more-status-btn" class="follow" >See more statuses..</button>
+                        <button class="button"><span>See more statuses </span></button>
                     </div>
                     
                 </main>
@@ -472,7 +484,15 @@
             </section>
 
             <footer>
-                <div>
+                <div id="footerMenu"><!-- Menu Bar options -->
+                    <ul id="navBar">
+                        <li><a class="menuItem" href="index.html">Home</a></li>
+                        <li><a class="menuItem" href="about.html">About</a></li>
+                        <li><a class="menuItem" href="myStatus.html">My Statuses</a></li>
+                        <li><a class="menuItem" href="users.html">All Users</a></li>
+                    </ul>
+                </div>
+            <div id="webmasterContact">
                     Welcome to Our Clone! We are still in Beta testing and would appreciate your feedback email: <a href="mailto:webmaster@ourclone.com">webmaster@ourclone.com</a>
                 </div>
             </footer>
