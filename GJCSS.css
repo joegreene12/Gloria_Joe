@@ -1,0 +1,440 @@
+/*
+========================================
+ THIS IS THE MAIN CONTAINER OF THE PAGE
+========================================
+*/
+
+
+#mainPage {
+    width: 992px;
+    font-family: sans-serif;
+    align-content: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/*
+========================================
+ THIS IS THE HEADER SECTION OF THE PAGE
+========================================
+*/
+
+header {
+    width: 992px;
+    background-color: white;
+    color: black;
+    padding: 0;
+    clear: both;
+}
+
+a {
+    color: darkmagenta;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: mediumorchid;
+}
+
+h1 {
+    color: #522424;
+}
+
+#tagline {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 30px
+}
+
+#menu {
+    float: left;
+    width: 100%;
+    background-color: #C0AFAF;
+    border-bottom: 1px solid #b56617;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+#menu ul {
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center;
+
+
+}
+
+#menu ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+
+
+}
+
+#menu ul li a {
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    color: darkmagenta;
+    text-decoration:none;
+
+}
+
+/*
+========================================
+          Hovering over the link
+========================================
+*/
+
+#menu ul li a:hover {
+    background-color: #522424;
+    color: #f5f5f5;
+    border-radius: 2px;
+    transition-delay: 0.25s;
+
+
+}
+
+#topRight ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 14px;
+    float: right;
+
+}
+
+#topRight ul li {
+    display: inline-block;
+    align-items: right;
+
+
+}
+
+#topRight ul li a {
+    margin: 0 0 0 1px;
+    padding: 3px 6px;
+    text-decoration:none;
+    border-left: 1px;
+
+}
+
+
+#topRight ul li a:hover{
+    text-decoration: underline;
+}
+
+/*
+========================================
+  THIS IS THE MAIN SECTION OF THE PAGE
+========================================
+*/
+
+section {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+section main {
+    float: left;
+    display: inline-block;
+    padding: 2px;
+    width: 70%;
+
+
+}
+
+section main hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(82, 36, 36, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #C0AFAF;
+    padding: 2px;
+    float: left;
+    margin-bottom: 20px;
+
+
+}
+
+section main div {
+    margin-bottom: 10px;
+    font-size: 12px;
+    clear: left;
+    padding: 10px;
+    overflow: auto;
+}
+
+.usersFrame {
+    float: left;
+    width: 30%;
+    clear: none;
+    padding: 5px;
+    margin: 5px;
+    height: 110px;
+    overflow: hidden;
+    border-bottom: 1px;
+    border-bottom-color: #522424;
+}
+
+.statusContent {
+    text-align: justify;
+
+}
+
+.statusName {
+    font-weight:800;
+    color: #522424;
+}
+
+.statusDate {
+    font-style: italic;
+
+}
+
+section aside {
+    float: right;
+    background-color: #C0AFAF;
+    padding-top: 0px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 200px;
+
+
+}
+
+section aside div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #C0AFAF;
+    padding: 2px;
+    float: left;
+}
+
+section aside div {
+    font-size: 11px;
+    float: left;
+    clear: left;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.featured {
+    margin-bottom: 20px;
+    clear: right;
+
+}
+
+.popName {
+    font-size: 12px;
+    font-weight: 800;
+    color: #522424;
+    float: left;
+
+}
+
+.popBio {
+    margin-bottom: 10px;
+
+}
+
+/* Gradient Buttons */
+
+#button-container {
+    float: right;
+}
+
+button {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, aqua); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, aqua); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, aqua); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, aqua); /* Standard syntax */
+
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    padding: 15px;
+    margin-top: 20px;
+
+
+
+}
+
+button:hover {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(aqua, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(aqua, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(aqua, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(aqua, blue); /* Standard syntax */
+
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+ button:active{
+    background: #C0AFAF;
+}
+
+
+/*
+========================================
+             The Form Section
+========================================
+*/
+
+
+
+form {
+  background: #C0AFAF;
+  max-width: 75%;
+  margin: 0;
+  padding: 40px 40px 20px;
+  box-shadow: 0 0 1em #555;
+    align-self: center;
+}
+
+.line {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-size: 1.6em;
+  color: #333;
+  margin: 0 0 .5em;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #e2e2f1;
+  background: #efeff7;
+  padding: .8em .5em;
+  font-size: 1.6em;
+}
+
+input[type="file"] {
+  border: 1px solid #e2e2f1;
+  background: #efeff7;
+  padding: .8em .5em;
+  color: transparent;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background: #fff;
+}
+
+.pop {
+  display: block;
+  width: 145px;
+  background: #522424;
+  color: #fff;
+  padding: 7px 10px;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 105%;
+  top: 4px;
+}
+
+.pop:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  border-right-color: #522424;
+  pointer-events: none;
+  border-width: 8px;
+  margin-top: -8px;
+}
+
+input[type="submit"] {
+  display: block;
+  border: none;
+  outline: none;
+  margin: 2em 0 0;
+  padding: 0.7em 0;
+  color: #fff;
+  background: #522424;
+  box-shadow: 0 5px 0 0 #3b3b3b;
+  font-size: 1.8em;
+  line-height: 1.6em;
+  cursor: pointer;
+}
+
+.bye {
+    align-content: center;
+    margin-left: 38%;
+
+}
+
+
+
+
+/*
+========================================
+             The footer section
+========================================
+*/
+
+footer {
+    clear: both;
+    background-color: #522424;
+    color: white;
+    font-size: 11px;
+    bottom: 0;
+    position: fixed;
+    width: 992px;
+}
+
+footer a {
+    color: aqua;
+}
