@@ -405,20 +405,55 @@ aside div button {
 }
 
 aside div button:hover {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(aqua, blue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(aqua, blue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(aqua, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(aqua, blue); /* Standard syntax */
-
-    border-radius: 15px;
-    border: none;
-    font-size: 20px;
-    color: white;
+    background-color: #431c5d;
+    border-radius: 5px;
+    color: #cdd422;
 }
 
 aside div button:active{
     background: #C0AFAF;
+}
+
+/*
+==================================
+ USERS.HTML FORMATTING
+==================================
+*/
+.usersOrganized {
+    display: block;
+}
+
+.usersFrame {
+    width: 180px;
+    float: left;
+    margin-bottom: 20p
+}
+
+.userImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -9px;
+    padding: 0px;
+}
+
+.userText {
+    margin-bottom: 20px;
+    
+}
+
+.userName {
+    display: block;
+    margin: 0 auto;
+    color: #e05915;
+    font-size: 14px;
+    padding: 5px;
+    
+}
+
+.userTagline { 
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -434,9 +469,19 @@ footer {
     }
 
 #webmasterContact {
-    align-content: center;
-    color: azure;
-    font-size: 10px;
+    color: #bccbde;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    right: 17px;
+    background: #431c5d;
+    width: 300px;
+    padding: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: #431c5d; 
+    padding: 10px;
+    
 }
 
 #footerMenu {
