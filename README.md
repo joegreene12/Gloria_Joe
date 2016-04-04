@@ -1,25 +1,25 @@
 
-This project fulfills the requirements for:
+This project was created to fulfill the requirement for creating a Twitter Clone.
+It was created by Joe Grene and Gloria Bwandungi @ Holberton School.
 
-#Basic CSS and float-layout
+#Impossible Octopus Fitness - In Short
 Higher-level programming ― The Twitter clone adventure
 
-Must be finished by 2016-02-08
+With accessibility in mind, and created to work on mobile devices, In Short is a social networking clone that displays statuses, of varying lengths, posted by imaginary people who are represented by images and fake names.
 
-and was completed by Joe Greene and Gloria Bwandungi Mugarura, students at Holberton School.
+An aside bar provides us with a fake list of the most active users on the platform.
 
-#In Short
+#Web Technologies Employed
 
-It is a basic layout for a twitter clone that contains the following pages:
+This project allowed us to 
 
-index.html
-users.html
-edit.html
-myStatus.html
-logout.html
-GJCSS.html
-
-We chose a basic and clean layout in line with the current trends in mobile web design and have used Git pages to “host” the site.
-
+ - learn how to create simple web sites using HTML
+ - format our pages using CSS
+ - animate our pages using JavaScript
+ - optimize the pages for use by mobile devices
+ - optimize fast loading using various SEO techniques
+ - understand and empathize with visitors who have special needs.
+ 
+ This project was completed on April 3, 2016.
 
 
