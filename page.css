@@ -399,6 +399,48 @@ aside div button:active{
     background: #C0AFAF;
 }
 
+/*
+==================================
+ USERS.HTML FORMATTING
+==================================
+*/
+.usersOrganized {
+    display: block;
+}
+
+.usersFrame {
+    width: 180px;
+    float: left;
+    margin-bottom: 20p
+}
+
+.userImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -9px;
+    padding: 0px;
+}
+
+.userText {
+    margin-bottom: 20px;
+    
+}
+
+.userName {
+    display: block;
+    margin: 0 auto;
+    color: #e05915;
+    font-size: 14px;
+    padding: 5px;
+    
+}
+
+.userTagline { 
+    display: block;
+    margin: 0 auto;
+}
+
 
 /*
 ==================================
@@ -412,6 +454,7 @@ footer {
     }
 
 #webmasterContact {
+<<<<<<< HEAD
     align-content: center;
     color: azure;
     font-size: 16px;
@@ -428,6 +471,21 @@ footer {
     -webkit-box-shadow: 10px 7px 113px 0px rgba(205,212,34,0.32);
     -moz-box-shadow: 10px 7px 113px 0px rgba(205,212,34,0.32);
     box-shadow: 10px 7px 113px 0px rgba(205,212,34,0.32);
+=======
+    color: #bccbde;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    right: 17px;
+    background: #431c5d;
+    width: 300px;
+    padding: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: #431c5d; 
+    padding: 10px;
+    
+>>>>>>> 11d30730aa0a2eef3ea3ce439f48b5d0e63609cc
 }
 
 #footerMenu {
