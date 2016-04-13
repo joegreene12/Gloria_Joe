@@ -11,7 +11,7 @@ function load_more() {
 		document.getElementById("status_button").style.cursor = "not-allowed";
 
 		setTimeout(function () {
-			ajaxGet("statuses-1.html", function (response) {
+			ajaxGet("..\statuses-1.html", function (response) {
 				document.getElementById("more-status-div").innerHTML = response;
 			});
 		}, 2000);
