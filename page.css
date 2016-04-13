@@ -134,6 +134,55 @@ header {
 }
 
 /*
+============
+ LOGIN FORM
+============
+*/
+
+#loginForm {
+    background-color: #bccbde;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-width: 5px;
+    border-color: #431c5d;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px:
+}
+
+#loginHeader {
+    background-color: #431c5d;
+    color: #cdd422;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+    padding: 3px;
+}
+
+.textInput {
+    width: 80%;
+    color: #431c5d;
+
+}
+
+#submitForm {
+    background-color: #431c5d;
+    border: none;
+    color: #cdd422;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 2px;
+}
+
+
+
+/*
 ================================================
  FOR STATUSES INCLUDING IMAGES NAMES & MESSAGES
 ================================================
