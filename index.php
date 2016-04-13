@@ -59,7 +59,7 @@
                 
                 <div id="topRight"><!-- Top Right Menu -->
                     <ul>
-                        <li><a href="edit.html">Edit Profile</a></li>
+                        <li><a href="login.php">Login</a></li>
                         <li><a href="logout.html">Logout</a></li>
                     </ul>    
                 </div>
