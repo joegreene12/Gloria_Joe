@@ -89,8 +89,12 @@
                 <main>
                     <h1>
 		      <?php
-			 if($_POST["login"] === ""){ echo "Hello there!";}
-			 else { echo "Welcome back " . $_POST["login"]; }
+			 if($_POST["login"] === ""){ echo "Hello there!<br>";}
+			 else { echo "Welcome back " . $_POST["login"] . "<br></h1>"; }
+			 if($_POST["password"] === ""){ echo "No Password";}
+			 else { echo "<h3>Your rot13'd password is " . str_rot13($_POST["password"]) . "<br>";
+			        echo "The length of your login is: " . strlen($_POST["login"]) . "</h3>";
+			 }
 		      ?>
 		    </h1>
                     
