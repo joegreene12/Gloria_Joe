@@ -19,6 +19,24 @@
         
 		<title>In Short - The new way to get noticed online.</title>
 	</head>
+
+	<?php
+	   $users = [
+	       array("id" => 1, "login" => "user1", "password" => "password1", "full_name" => "User 1"),
+	       array("id" => 2, "login" => "user2", "password" => "password2", "full_name" => "User 2"),
+	       array("id" => 3, "login" => "user3", "password" => "password3", "full_name" => "User 3"),
+	   ];
+	   $username = $_POST['login'];
+	   function userExists($login, $password, $users) {
+	       foreach ($users as $elem) {
+	           if ($login == $elem['login'] && $password == $elem['password']) {
+	              return $elem;
+	           }
+	       }
+	       return false;
+	   }
+	?>
+
 	<body>
         
         <div id="mainPage"><!-- This block contains the entire page -->
@@ -87,13 +105,21 @@
                 <!-- The main section of the page -->
                 
                 <main>
-                    <h1>
 		      <?php
-			 if($_POST["login"] === ""){ echo "Hello there!<br>";}
-			 else { echo "Welcome back " . $_POST["login"] . "<br></h1>"; }
-			 if($_POST["password"] === ""){ echo "No Password";}
-			 else { echo "<h3>Your rot13'd password is " . str_rot13($_POST["password"]) . "<br>";
-			        echo "The length of your login is: " . strlen($_POST["login"]) . "</h3>";
+			 
+
+
+			 if($_POST["login"] === ""){ 
+			    echo "<h1>Hello there!</h1><br>";                       
+			 }
+			 else if (userExists($username, $_POST['password'], $users) == false) {
+			    echo "<h1>Hello, there!</h1><br>";
+			    echo "<p id='invalid'>Invalid credentials</p>";
+			 }
+			 else { 
+			    echo "<h1>Welcome back " . $username . "<br></h1>"; 
+			    echo "<h3>Your rot13'd password is " . str_rot13($_POST["password"]) . "<br>";
+			    echo "The length of your login is: " . strlen($_POST["login"]) . "</h3>";
 			 }
 		      ?>
 		    </h1>
