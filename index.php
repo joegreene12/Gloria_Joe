@@ -87,7 +87,12 @@
                 <!-- The main section of the page -->
                 
                 <main>
-                    <h1>Welcome back <?php echo $_POST["login"]; ?></h1>
+                    <h1>
+		      <?php
+			 if($_POST["login"] === ""){ echo "Hello there!";}
+			 else { echo "Welcome back " . $_POST["login"]; }
+		      ?>
+		    </h1>
                     
                     <div id="postStatusLink"><span><a href="#" id="showLink">Post a status</a></span></div>
                     
